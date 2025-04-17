@@ -7,9 +7,10 @@ This project introduces the **Federated Multi-Attention CNN (FMACNN)** framework
 The framework leverages multi-attention mechanisms to improve the model's ability to focus on critical features of images, increasing detection accuracy. This system is deployed across edge devices to ensure privacy and scalability, making it highly efficient for real-world applications. Additionally, the **RealAIGI dataset**, which consists of a mix of real and synthetic AI-generated images, is used to train and evaluate the model.
 
 ### Key Contributions:
-- **FMACNN Framework**: Integrates federated learning with multi-attention CNNs, ensuring high detection accuracy while preserving user privacy.
-- **RealAIGI Dataset**: A new dataset for artificial image detection, including AI-generated images using the Sora Diffusion Transformer model, aimed at enhancing training scenarios.
-- **Superior Performance**: Achieved 99.12% accuracy in detecting artificial images, surpassing current state-of-the-art models on benchmark datasets like **CIFAKE** and **FaceForensics++**.
+- We propose the FMACNN framework that integrates advanced attention mechanisms with federated learning to enhance the detection of artificially generated images. By utilizing AI-generated images directly from edge devices, the framework adapts to increasingly realistic synthetic content produced by GANs. Designed for decentralized training, it ensures robust data privacy while optimizing detection accuracy.
+- Proposed a Multi-Attention CNN model that surpasses SOTA performance by leveraging multiple attention layers to emphasize critical features and regions within the input data while maintaining a lightweight architecture. The FMACNN framework minimizes computational overhead, ensures low execution time, and achieves faster convergence to high accuracy, making it ideal for deployment in resource-constrained environments.
+- We developed the RealAIGI dataset, featuring a well-balanced mix of real and highly realistic AI-generated images. Leveraging the benchmark Diffusion Transformer model (Sora), this dataset provides diverse and challenging training scenarios that surpass existing benchmarks in authenticity, ensuring more effective artificial image detection.
+- The proposed framework is rigorously tested and benchmarked against SOTA approaches using CIFAKE, FaceForensics++ (FF++), and the newly introduced RealAIGI dataset. This comprehensive evaluation validates its reliability, efficiency, and superiority in detecting artificially generated images across diverse scenarios.
 
 ## Key Features
 - **Federated Learning**: Decentralized training across multiple edge devices, ensuring privacy and efficient model aggregation.
