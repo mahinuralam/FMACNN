@@ -30,23 +30,6 @@ The framework leverages multi-attention mechanisms to improve the model's abilit
 
 ![image](https://github.com/user-attachments/assets/13f6e507-cc62-41e6-8494-e099b86d5109)
 
-
 ![image](https://github.com/user-attachments/assets/2b5556f4-a42a-49aa-9128-96d292d1f3d3)
-
-
-## Usage
-
-To use the FMACNN framework for artificial image detection, follow these steps:
-1. **Training**: The model is trained using federated learning across edge devices, ensuring data privacy.
-2. **Detection**: The trained model can be used to classify images as real or AI-generated.
-
-
-
-
-
-
-
-
-
 
 ![image](https://github.com/user-attachments/assets/4cb3f085-0ed8-4126-8cc0-5a8ab95ee4cd)
